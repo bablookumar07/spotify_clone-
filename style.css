@@ -1,0 +1,296 @@
+* { 
+    
+.montserrat-uniquifier {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+margin: 0;
+background-color: #000;
+color: #fff;
+overflow: hidden;
+} 
+
+ .main{
+    display: flex;
+    height: 100vh;
+    padding:0.5rem; 
+ }
+  
+.sidebar{
+    background-color:#000;
+    width: 340px;
+    border-radius: 1rem;
+    margin-right: 0.5rem;
+}
+
+
+.main-content{
+    background-color:#121212 ;
+    flex: 1;
+    border-radius: 1rem;
+    overflow: auto;
+    padding:0 1.5rem 0 1.5rem;
+}
+
+
+.music-player{
+    background-color: #121212;
+    position: fixed;
+    bottom: 0;
+    width:100%;
+height: 72px;
+} 
+
+a{
+    color:#fff;
+    text-decoration: none;
+     background-color: #121212;
+}
+
+.nav{
+    background-color: #121212;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    padding: 0.5rem 0.75rem;
+}
+
+.nav-option{
+    line-height: 2.5rem;
+    opacity: 0.7;
+    background-color: #121212;
+}
+
+.nav-option:hover{
+    opacity: 1;
+}
+
+.nav-option i {
+ font-size: 1.25rem;
+ background-color: #121212;
+}
+
+.nav-option a {
+    font-size: 1rem;
+}  
+
+.library{
+    background-color: #121212;
+    border-radius: 1rem;
+    padding: 0.5rem 0.75rem;
+    margin-top:0.5rem;
+}
+
+.options{
+     background-color: #121212;
+     display: flex;
+     justify-content:space-between;
+        align-items: center;
+} 
+
+.lib-option{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:70px;
+}
+
+.lib-option img{
+     background-color: #121212;
+height:1.25rem;
+width:1.25rem;
+} 
+
+.icons{
+    font-size: 1rem;
+  background-color: #121212;  
+  margin-left:auto;
+    display: flex;
+}
+
+.box{
+    background-color: #232323;
+    height:8rem;
+    border-radius: 0.75rem;
+    margin:0.5rem 0 0.5rem 0;
+    padding:1rem 1.75rem 1rem 1.25rem;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box-p1{
+    font-size: 1rem;
+     background-color: #232323;
+     font-weight: 500;
+     gap: 10px;
+}
+
+.box-p2{
+    font-size: 0.75rem;
+    opacity: 0.85;
+     background-color: #232323;
+     margin-top: 1rem;
+}
+
+.badge{
+    background-color: #fff;
+    border: none;
+    border-radius:100px; 
+    padding: 0.25rem 1 rem;
+    font-weight: 700;
+    margin-top: 1rem;
+    height: 2rem;
+    width: fit-content;
+} 
+
+
+.sticky-nav{
+    position: sticky;
+    top: 0;
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0 0.5rem 0;
+    z-index: 1000;
+}
+
+.sticky-nav-icons{
+    background-color: #121212;
+    margin-top: 1rem;
+}
+
+.sticky-nav-icons img{
+    background-color: #121212;
+    margin-left: 0.75rem ;
+}
+
+.sticky-nav-options{
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sticky-nav-options button{
+    margin-right: 0.75rem;
+}
+
+@media(max-width:1000px){
+    .badge.hide{
+        display: none;
+    }
+}
+
+.card{
+    background-color: #232323;
+    width:150px;
+    border-radius: 0.5rem;
+    padding :1rem;
+    margin-left:1.5rem;
+    margin-top: 1rem;
+    flex:wrap;
+}
+ 
+.cards-container{
+   display: flex;
+    background-color: #121212;
+    flex-wrap: wrap;
+}
+
+.card-img{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.card-tittle{
+    font-size: 0.875rem;
+    font-weight: 500;
+    background-color: #232323;
+}
+
+.card-info{
+    font-size: 0.75rem;
+    opacity: 0.5;
+    background-color: #232323; 
+
+}
+
+.footer{
+    height:300px;
+    display:flex;
+align-items:center;
+justify-content:center;
+background-color: #121212;
+}
+
+.line{
+    width:90%;
+    height:5 0%;
+    border-top: 1px solid #ffff;
+    opacity: 0.1;
+}
+
+.music-player{
+    display: flex;
+    width: 100%;
+     background-color: #121212;
+     align-items: center;
+    
+     
+}
+
+.album{
+    width:25%;
+}
+
+.controls{
+    width:25%;
+}
+
+.player{
+    width:50%;
+    background-color: #121212;
+}
+ 
+.player-controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    background-color: #121212;
+}
+
+.player-control-icon{
+    height:1rem;
+    background-color: #121212;
+    display: flex;
+}
+
+.playback-bar{
+    background-color: #121212;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.current-time{
+    background-color: #121212;
+    font-size: 0.75rem;
+    opacity: 0.5;
+}
+
+.tot-time{
+    background-color: #121212;
+    font-size: 0.75rem;
+    opacity: 0.5;
+}
+
+.progress-bar{
+    width:70%;
+}
